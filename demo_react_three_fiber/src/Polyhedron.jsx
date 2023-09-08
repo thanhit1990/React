@@ -16,7 +16,7 @@ export default function Polyhedron({ polyhedron, polyhedron_shape, color, wirefr
             }}
             geometry={polyhedron_shape}
         >
-            <meshBasicMaterial color={color} wireframe={wireframe} />
+            <meshBasicMaterial attach="material" color={color} wireframe={wireframe} />
         </mesh>
     )
 }

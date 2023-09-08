@@ -40,6 +40,8 @@ export default function Lava01() {
     return (
         <>
             <Canvas camera={{ position: [1, 2, 3] }}>
+                <ambientLight />
+                <pointLight position={[10, 0, 10]} intensity={1} />
                 <Polyhedron
                     key="polyhedronA"
                     position={[-1, 1, 0]}
