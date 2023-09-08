@@ -4,10 +4,11 @@ import { Canvas } from '@react-three/fiber'
 import App from './App.jsx'
 import MyApp from './Models.jsx'
 import Lava01 from './Lava01.jsx'
+import VRApp from './VRApp.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Lava01 />
+    <VRApp />
   </React.StrictMode>,
 )
